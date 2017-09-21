@@ -1,0 +1,59 @@
+#placeholders1,#placeholders2,#placeholders3,#placeholders4,
+#placeholders5{
+	position: relative;
+}
+.port-image{
+	   
+    width: 280px;
+    height: 185px;
+    float: left;
+    margin-right: 41px;
+    margin-left: 4px;
+    margin-top: 19px;
+    margin-bottom: 11px;
+}
+#port-p{
+	color:  #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 10px;
+
+}
+.imgs{
+	position: absolute;
+    width: 280px;
+    height: 50px;
+    bottom: 10px;
+    color: white;
+    background-color: #4aaaa5;
+    clear: both;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+.img1{
+	
+    left: 4px;
+    top: 141px;
+    
+
+
+}
+.img2{
+	right: 41px;
+    top: 141px;
+}
+.img3{
+	left: 4px;
+    top: 353px;
+}
+.img4{
+	right: 41px;
+	top: 353px;
+}
+}
+.img5{
+	top: 573px;
+    left: 4px;
+}
