@@ -34,3 +34,96 @@ input[type=submit]{
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 10px;
 }
+
+
+/*
+for mobile phone
+*/
+@media only screen and (max-width: 768px) {
+
+	textarea{
+		width: 300px;
+		padding: 6px 10px;
+		margin: 4px 0;
+		height: 150px;
+
+	}
+	input[type=text]{
+		width: 300px;
+		padding: 10px 10px;
+		margin: 4px 0;
+
+	}
+	input[type=submit]{
+		width: 50px;
+		background-color: #4aaaa5 ;
+		color: white;
+		cursor: pointer;
+		margin: 8px 0;
+		border: none;
+		height: 43px;
+
+	}
+
+	
+}
+/*
+for tablets
+*/
+@media only screen and (max-width: 768px){
+	textarea{
+		width: 430px;
+		padding: 6px 10px;
+		margin: 4px 0;
+		height: 150px;
+
+	}
+	input[type=text]{
+		width: 430px;
+		padding: 10px 10px;
+		margin: 4px 0;
+
+	}
+	input[type=submit]{
+		width: 70px;
+		background-color: #4aaaa5 ;
+		color: white;
+		cursor: pointer;
+		margin: 8px 0;
+		border: none;
+		height: 43px;
+
+	}
+
+
+}
+
+/*
+for desktop
+*/
+@media only screen and (max-width:1024px) {
+	textarea{
+		width: 635px;
+		padding: 6px 10px;
+		margin: 4px 0;
+		height: 150px;
+
+	}
+	input[type=text]{
+		width: 635px;
+		padding: 10px 10px;
+		margin: 4px 0;
+
+	}
+	input[type=submit]{
+		width: 90px;
+		background-color: #4aaaa5 ;
+		color: white;
+		cursor: pointer;
+		margin: 8px 0;
+		border: none;
+		height: 43px;
+
+	}
+
+}

@@ -127,3 +127,129 @@ header ul li:first-child{
 .clearing{
 	clear: both;
 }
+
+/*
+reset.css style
+*/
+
+
+/*
+for mobile phone
+*/
+@media only screen and (max-width: 640px) {
+
+	#main-bio{
+		width: 150px;
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#contact-info{
+		width: 50px;
+		margin-right: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#container{
+	
+		width: 400px;
+		margin-right: 20px;
+		font-size: 14px;
+	
+	}
+	header{
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer{
+		width: 400px;
+	}
+	#bio-image{
+		width: 50px;
+		height: 50px;
+		margin-right: 5px;
+	
+	}
+
+}
+/*
+for tablets
+*/
+@media only screen and (max-width: 768px){
+	#main-bio{
+		width: 450px;
+		margin-left: 95px;
+		margin-right: 20px;
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#contact-info{
+		width: 55px;
+		margin-right: 25px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#container{
+	
+		width: 768px;
+		margin-right: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	
+	}
+	header{
+		width: 768px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer{
+		width: 768px;
+	}
+
+}
+
+/*
+for desktop
+*/
+@media only screen and (max-width: 1024px) {
+	#main-bio{
+		width: 650px;
+		margin-left: 95px;
+		margin-right: 20px;
+		margin-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#contact-info{
+		width: 125px;
+		margin-right: 25px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#container{
+	
+		width: 1024px;
+		margin-right: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	
+	}
+	header{
+		width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer{
+		width: 1024px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+}
