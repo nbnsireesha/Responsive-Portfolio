@@ -270,9 +270,9 @@ for desktop index.html
 */
 @media only screen and (max-width: 980px) {
 	#main-bio{
-		
-		width: 365px;
-	    margin-left: 95px;
+
+		        width: 51%;
+	    margin-left: 33px;
 	    margin-right: 20px;
 	    margin-top: 20px;
 	    padding-left: 20px;
@@ -280,11 +280,13 @@ for desktop index.html
 	}
 
 	#contact-info{
-		  width: 194px;
+		width: 25%;
     /* margin-right: 25px; */
-	    padding-left: 20px;
-	    padding-right: 20px;
-	    margin-top: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 21px;
+    margin-bottom: 20px;
+    margin-left: 18px;
 	}
 	#bio-image{
 		max-width: 100%;
@@ -321,35 +323,34 @@ for desktop index.html
 	 .port-image{
        
         min-width: 98%;
-	    height: auto;
-	    margin-right: 20px;
-	    margin-left: 3px;
-	    margin-top: 10px;
-	    margin-bottom: 7px;
+    margin-right: 20px;
+    margin-left: 3px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    height: 346px;
     }
     .imgs{
-            min-width: 358px;
+        width: 479px;
     }
-    .img1{
-    
-       left: 3px;
-    	top: 291px;
-    }
-    .img2{
-            left: 3px;
-    	top: 671px;
-    }
-    .img3{
-       left: 3px;
-    	top: 1047px;
-    }
-    .img4{
+    .img1 {
         left: 3px;
-    	top: 1421px;
+    top: 281px;
     }
-    .img5{
-        top: 1799px;
-    	left: 3px;
+    .img2 {
+        left: 3px;
+    top: 641px;
+    }
+    .img3 {
+        left: 3px;
+    top: 1007px;
+    }
+    .img4 {
+        left: 3px;
+    top: 1372px;
+    }
+    .img5 {
+        left: 3px;
+    top: 1742px;
     }
     textarea{
 		width: 289px;
@@ -382,7 +383,7 @@ for tablets index.html and contact.html
 */
 @media only screen and (max-width: 768px) {
     #main-bio{
-        width: 75%;
+        width: 85%;
     }
     #bio-image {
 		    min-width: 150px;
@@ -395,12 +396,12 @@ for tablets index.html and contact.html
 	    margin-right: -2%;
 	}
 	#contact-info{
-		 width: 75%;
+		 width: 85%;
     /* margin-right: 25px; */
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 21px;
-    margin-left: 15%;
+    margin-left: 4%;
     margin-bottom: 3%;
 	}
 	textarea{
@@ -428,35 +429,35 @@ for tablets index.html and contact.html
 	}
 	 .port-image{
        
-        width: 70%;
-        margin-right: 20px;
-        margin-left: 3px;
-        margin-top: 10px;
-        margin-bottom: 7px;
+            min-width: 112px;
+    margin-right: 32px;
+    margin-left: 3px;
+    margin-top: 10px;
+    margin-bottom: 7px;
     }
     .imgs{
-        width: 70%;
+        width: 44%
     }
     .img1{
     
         left: 3px;
-        top: 134px;
+    top: 279px;
     }
     .img2{
-            left: 3px;
-            top: 337px;
+            right: 35px;
+    top: 278px;
     }
     .img3{
-       left: 3px;
-        top: 539px;
+           left: 3px;
+    top: 645px;
     }
     .img4{
-        left: 3px;
-        top: 737px;
+        left: 319px;
+    top: 644px;
     }
     .img5{
-        top: 944px;
-    	left: 3px;
+        top: 1007px;
+    left: 4px;
     }
 
 }
@@ -523,27 +524,27 @@ for tablets index.html and contact.html
         margin-bottom: 7px;
     }
     .imgs{
-        width: 150px;
+        width: 98%;
     }
     .img1 {
         left: 3px;
-        top: 138px;
+   	 top: 280px;
     }
     .img2 {
-        right: 64px;
-        top: 138px;
+            right: 64px;
+    	top: 646px;
     }
     .img3 {
         left: 3px;
-        top: 294px;
+    top: 1006px;
     }
     .img4 {
         left: 3px;
-        top: 340px;
+    top: 1372px;
     }
     .img5 {
-        left: 4px;
-        top: 569px;
+        left: 3px;
+    	top: 1739px;
     }
     textarea{
 		width: 95%;
