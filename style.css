@@ -265,101 +265,26 @@ input[type=submit]{
     left: 4px;
 }
 
-
-
-/*
-for desktop contact.html
-*/
-
-
-@media only screen and (max-width:980px) {
-	textarea{
-		width: 289px;
-		padding: 6px 10px;
-		margin: 4px 0;
-		height: 150px;
-
-	}
-	input[type=text]{
-		width: 289px;
-	    padding: 10px 10px;
-	    margin: 4px 0;
-
-	}
-	input[type=submit]{
-		width: 90px;
-		background-color: #4aaaa5 ;
-		color: white;
-		cursor: pointer;
-		margin: 8px 0;
-		border: none;
-		height: 43px;
-
-	}
-}/*end of media query */
-/*
-for desktop portfolio
-*/
-@media only screen and (max-width:980px){
-    .port-image{
-       
-        min-width: 98%;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 3px;
-    margin-top: 10px;
-    margin-bottom: 7px;
-    }
-    .imgs{
-            min-width: 358px;
-    }
-    .img1{
-    
-       left: 3px;
-    	top: 291px;
-    }
-    .img2{
-            left: 3px;
-    	top: 671px;
-    }
-    .img3{
-       left: 3px;
-    	top: 1047px;
-    }
-    .img4{
-        left: 3px;
-    	top: 1421px;
-    }
-    .img5{
-        top: 1799px;
-    	left: 3px;
-    }
-
-
-}
-
-
-
-
 /*
 for desktop index.html
 */
 @media only screen and (max-width: 980px) {
 	#main-bio{
+		
 		width: 365px;
-    margin-left: 95px;
-    margin-right: 20px;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+	    margin-left: 95px;
+	    margin-right: 20px;
+	    margin-top: 20px;
+	    padding-left: 20px;
+	    padding-right: 20px;
 	}
 
 	#contact-info{
 		  width: 194px;
     /* margin-right: 25px; */
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 21px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    margin-top: 21px;
 	}
 	#bio-image{
 		max-width: 100%;
@@ -393,6 +318,63 @@ for desktop index.html
 	    margin-right: 0;
 	    margin-left: auto;
 	}
+	 .port-image{
+       
+        min-width: 98%;
+	    height: auto;
+	    margin-right: 20px;
+	    margin-left: 3px;
+	    margin-top: 10px;
+	    margin-bottom: 7px;
+    }
+    .imgs{
+            min-width: 358px;
+    }
+    .img1{
+    
+       left: 3px;
+    	top: 291px;
+    }
+    .img2{
+            left: 3px;
+    	top: 671px;
+    }
+    .img3{
+       left: 3px;
+    	top: 1047px;
+    }
+    .img4{
+        left: 3px;
+    	top: 1421px;
+    }
+    .img5{
+        top: 1799px;
+    	left: 3px;
+    }
+    textarea{
+		width: 289px;
+		padding: 6px 10px;
+		margin: 4px 0;
+		height: 150px;
+
+	}
+	input[type=text]{
+		width: 289px;
+	    padding: 10px 10px;
+	    margin: 4px 0;
+
+	}
+	input[type=submit]{
+		width: 90px;
+		background-color: #4aaaa5 ;
+		color: white;
+		cursor: pointer;
+		margin: 8px 0;
+		border: none;
+		height: 43px;
+
+	}
+
 
 }
 /*
@@ -444,12 +426,7 @@ for tablets index.html and contact.html
 		height: 43px;
 
 	}
-
-}
-/*for tablets portfolio.html  */
-
-@media only screen and (max-width: 768px){
-    .port-image{
+	 .port-image{
        
         width: 70%;
         margin-right: 20px;
@@ -482,8 +459,8 @@ for tablets index.html and contact.html
     	left: 3px;
     }
 
-
 }
+
 @media only screen and (max-width: 640px){
     
 	#main-bio{
